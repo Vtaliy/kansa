@@ -1,0 +1,63 @@
+#main-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start ;
+}
+
+h4 {
+  display: inline-block;
+}
+
+/*#boxLeft #boxCenter #boxRight{
+  justify-content: flex-start;
+}*/
+
+  header {
+    //display: inline-block;
+    ////height: 90px;
+    //vertical-align: top;
+    //position: relative;
+    //width: 1583px;
+    //height: 594.453px;
+  }
+}
+
+//a {
+//  height: 90px;
+//  width: 240px;
+//  display: inline-block;
+//}
+
+.k-logo {
+  img {
+    //width: 240px;
+    //height: 90px;
+  }
+}
+
+.boxLeft{
+  //position: relative;
+  //top: 150px;
+  //left: -40px;
+}
+
+
+.boxCenter{
+  //position: absolute;
+  //left: 49.9684%;
+  //top: 0px;
+}
+
+.boxRightTop{
+  //position: absolute;
+  //left: 74.9842%;
+  //top: 0px;
+}
+
+.boxRightBottom{
+  //position: absolute;
+  //left: 74.9842%;
+  //top: 321px;
+}
+
+

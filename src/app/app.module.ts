@@ -17,6 +17,10 @@ import {BagsComponent} from './bags/bags.component';
 import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {StartPageComponent} from './start-page/start-page.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { ProductsComponent } from './products/products.component';
+import { LeatherProductsComponent } from './leather-products/leather-products.component';
+import { BlogComponent } from './blog/blog.component';
 
 const appRoutes: Routes = [
     {path: 'start', component: StartPageComponent},
@@ -42,7 +46,11 @@ const appRoutes: Routes = [
         BagsComponent,
         HomeComponent,
         AboutComponent,
-        StartPageComponent
+        StartPageComponent,
+        MainNavComponent,
+        ProductsComponent,
+        LeatherProductsComponent,
+        BlogComponent
     ],
     imports: [
         BrowserModule,
