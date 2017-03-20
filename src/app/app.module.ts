@@ -13,7 +13,6 @@ import {MenuComponent} from './menu/menu.component';
 import {ClothesComponent} from './clothes/clothes.component';
 import {SalesComponent} from './sales/sales.component';
 import {ContactsComponent} from './contacts/contacts.component';
-import {BagsComponent} from './bags/bags.component';
 import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {StartPageComponent} from './start-page/start-page.component';
@@ -27,7 +26,6 @@ const appRoutes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'clothes', component: ClothesComponent},
     {path: 'sales', component: SalesComponent},
-    {path: 'bags', component: BagsComponent},
     {path: 'contacts', component: ContactsComponent},
     {path: 'about', component: AboutComponent},
 ];
@@ -43,7 +41,6 @@ const appRoutes: Routes = [
         ClothesComponent,
         SalesComponent,
         ContactsComponent,
-        BagsComponent,
         HomeComponent,
         AboutComponent,
         StartPageComponent,

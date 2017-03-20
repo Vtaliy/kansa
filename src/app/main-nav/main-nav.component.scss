@@ -1,21 +1,14 @@
-  .main-nav {
+.main-nav {
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
   flex-direction: row;
   align-content: stretch;
-}
+
 
 a, img {
   transition: all 1000ms ease-out;
   transition-delay: 150ms;
-}
-
-.box {
-  overflow: hidden;
-  flex: 1;
-  background: grey;
-  justify-content: stretch;
 }
 
 a:hover img {
@@ -38,7 +31,6 @@ h4 {
   margin: auto;
   z-index: 9;
   display: flex;
-  justify-self: stretch;
 }
 
 a {
@@ -51,14 +43,24 @@ a {
   color: #fff;
 }
 
+}
+
+.box {
+  overflow: hidden;
+  flex: 1;
+  background: grey;
+
+}
+
 .boxLeft {
   background: #000;
+  /*   border: 1px solid #000; */
 }
 
 .boxCenter {
   background: #fff;
-  border: 1px solid #000;
-}
+  /*   border: 1px solid #000; */
+  }
 
 .boxRight {
   background: aqua;
@@ -75,6 +77,32 @@ a {
   height: 50vh;
   /*   border: 1px solid #000; */
 }
+
+ .network {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+
+
+/*@media screen and (max-width: 600px) {
+  .main-nav {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .main-nav {
+      width: 100%;
+    }*/
 
 
 
