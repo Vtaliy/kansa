@@ -1,14 +1,89 @@
-.k-start_page__wrapper {
+
+.main-nav {
+  height: 100vh;
   display: flex;
   flex-flow: row wrap;
+  align-content: stretch;
 
-  /* Задаём всем элеметам ширину в 100% */
-  &__full {
-    flex: 1 100%;
+
+  a, img {
+    transition: all 1000ms ease-out;
+    transition-delay: 150ms;
   }
 
-  /* Задаём всем элеметам ширину в 50% */
-  &__half {
-    flex: 1 50%;
+
+  a:hover img {
+    transform: scale(1.2);
   }
+
+  img {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  h4 {
+    text-align: center;
+    margin: auto;
+    z-index: 9;
+    display: flex;
+    justify-self: stretch;
+  }
+
+  a {
+    display: flex;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #fff;
+  }
+
 }
+.box {
+  overflow: hidden;
+  flex: 1;
+  background: grey;
+  justify-content: stretch;
+}
+
+.boxLeft {
+  background: #000;
+}
+
+.boxCenter {
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.boxRight {
+  background: aqua;
+}
+
+.boxRightTop {
+  height: 50vh;
+  /*   border: 1px solid #000; */
+  overflow: hidden;
+}
+
+.boxRightBottom {
+  overflow: hidden;
+  height: 50vh;
+  /*   border: 1px solid #000; */
+}
+
+
+.network {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+

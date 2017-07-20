@@ -1,0 +1,46 @@
+.container-inner{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 90%;
+  border: 5px solid yellow;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.logo{
+  padding:0 50px;
+
+  &__link{
+    display: block;
+
+  }
+}
+
+.nav-form{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  border:3px solid green;
+  padding: 50px 0 0px;
+}
+
+.nav-search{
+  position: relative;
+  padding: 0 10px;
+  white-space: nowrap;
+  &__icon{
+
+  }
+  &__search_line{
+    // border: none;
+    font-size: 10px;
+    background: #1b005b;
+    color: #999;
+  }
+}
+
+.nav-office, .nav-shopping-cart{
+  padding: 0 10px;
+}

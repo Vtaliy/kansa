@@ -5,27 +5,22 @@ import {HttpModule} from '@angular/http';
 import {RouterModule, Routes} from '@angular/router';
 
 import {AppComponent} from './app.component';
-import {HeaderComponent} from './header/header.component';
 import {ContentComponent} from './content/content.component';
 import {FooterComponent} from './footer/footer.component';
-import {SidebarComponent} from './sidebar/sidebar.component';
-import {MenuComponent} from './menu/menu.component';
-import {ClothesComponent} from './clothes/clothes.component';
-import {SalesComponent} from './sales/sales.component';
 import {ContactsComponent} from './contacts/contacts.component';
-import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
 import {StartPageComponent} from './start-page/start-page.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
-import { ProductsComponent } from './products/products.component';
 import { LeatherProductsComponent } from './leather-products/leather-products.component';
 import { BlogComponent } from './blog/blog.component';
+import { HeaderLogoComponent } from './header-logo/header-logo.component';
+import { HeaderBotomComponent } from './header-botom/header-botom.component';
+import { BasketComponent } from './basket/basket.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ContentProductDescriptionComponent } from './content-product-description/content-product-description.component';
 
 const appRoutes: Routes = [
     {path: 'start', component: StartPageComponent},
-    {path: 'home', component: HomeComponent},
-    {path: 'clothes', component: ClothesComponent},
-    {path: 'sales', component: SalesComponent},
     {path: 'contacts', component: ContactsComponent},
     {path: 'about', component: AboutComponent},
 ];
@@ -33,21 +28,19 @@ const appRoutes: Routes = [
 @NgModule({
     declarations: [
         AppComponent,
-        HeaderComponent,
         ContentComponent,
         FooterComponent,
-        SidebarComponent,
-        MenuComponent,
-        ClothesComponent,
-        SalesComponent,
         ContactsComponent,
-        HomeComponent,
         AboutComponent,
         StartPageComponent,
         MainNavComponent,
-        ProductsComponent,
         LeatherProductsComponent,
-        BlogComponent
+        BlogComponent,
+        HeaderLogoComponent,
+        HeaderBotomComponent,
+        BasketComponent,
+        ContactFormComponent,
+        ContentProductDescriptionComponent
     ],
     imports: [
         BrowserModule,

@@ -1,4 +1,29 @@
-:host {
-  display: flex;
-  align-items: flex-end;
+body{
+  margin:0;
+
 }
+footer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #eee;}
+
+.wrapper-network{
+  display: flex;}
+
+.logo-facebook, .logo-instagram, .logo-twitter, .logo-pinterest{
+  padding: 15px;
+  align-items: center;
+}
+
+
+.logo-kansa{
+  padding:25px;
+}
+
+p{
+  margin: 0;
+}
+  
+

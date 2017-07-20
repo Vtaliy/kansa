@@ -1,0 +1,30 @@
+.product-wrap{
+  display: flex;
+  //   // justify-content: center;
+  flex-direction: column;
+  // align-content: center;
+  align-items: center;
+
+  &-slider__product{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+  }
+
+}
+
+.product-item{
+
+  &-about__product
+  {
+
+    text-align: center;}
+  &-add__cart_buy{
+    background-image: url(http://lorempixel.com/30/170);
+
+  }
+}
+
+
+
+

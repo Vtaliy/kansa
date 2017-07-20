@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+</head>
+<body>
+<h1>ОФОРМЛЕНИЕ ЗАКАЗА</h1>
+
+<table>
+  <tr>
+    <th>ИЗОБРАЖЕНИЕ</th>
+    <th>НАИМЕНОВАНИЕ</th>
+    <th>ЦЕНА ЗА ЕДЕНИЦУ</th>
+    <th>КОЛИЧЕСТВО</th>
+    <th>СУММА</th>
+  </tr>
+
+  <tr>
+    <td class="card__product">
+      <img src="http://lorempixel.com/150/150" alt="" /></td>
+    <td>название товара и его описание</td>
+    <td>9000 &#8372</td>
+    <td>1</td>
+    <td>9000 &#8372</td>
+  </tr>
+
+  <tr>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="sum"> Сумма </td>
+    <td class="sum"> 9000 &#8372 </td>
+  </tr>
+
+</table>
+
+<h3>ВВЕДИТЕ ВАШИ КОНТАКТНЫЕ ДАННЫЕ ДЛЯ ОФОРМЛЕНИЯ И ПОЛУЧЕНИЯ ТОВАРА</h3>
+
+<form action="#"
+      method="post"
+      name="OrderForm"
+      novalidate>
+  <div>
+    <label for="name">Имя*</label>
+    <input type="text"name="name" autofocus required />
+  </div>
+  <div>
+    <label for="surname">Фамиля *</label>
+    <input type="text" name="surname" required/>
+  </div>
+  <div>
+    <label for="email">E-mail *</label>
+    <input type="email" name="email" required/>
+  </div>
+  <div>
+    <label for="birthday">День рождения *</label>
+    <input type="text" name="birthday"/>
+  </div>
+  <div class="phone">
+    <label for="phone">Телефон *</label>
+    <input type="tel" name="phone"/>
+  </div>
+  <button type="submit" value="">&#9993; Отправить нам сообщение
+  </button>
+
+</form>
+
+
+</body>
+</html>
